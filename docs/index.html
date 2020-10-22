@@ -52,12 +52,13 @@
   <script>
     window.$docsify = {
 
-      homepage: 'index.md',
+      homepage: 'index',
 
       relativePath: true,
       // common aliases
       alias: {
-        '.*/_navbar.md': '/_navbar.md'
+        '.*/_navbar.md': '/_navbar.md',
+        '.*/README': '$1/index'
       },
 
 
